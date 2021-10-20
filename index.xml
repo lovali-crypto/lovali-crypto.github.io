@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lovali</title>
-    <link>https://lovali-crypto.github.io/</link>
+    <link>http://lovali.xyz/</link>
     <description>Recent content on Lovali</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate><atom:link href="https://lovali-crypto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate><atom:link href="http://lovali.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Staking Your Vega Tokens</title>
-      <link>https://lovali-crypto.github.io/blog/vega-stacking/</link>
+      <link>http://lovali.xyz/blog/vega-stacking/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
       
-      <guid>https://lovali-crypto.github.io/blog/vega-stacking/</guid>
+      <guid>http://lovali.xyz/blog/vega-stacking/</guid>
       <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
     </item>
     
