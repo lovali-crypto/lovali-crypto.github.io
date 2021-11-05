@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lovali</title>
-    <link>http://lovali.xyz/categories/</link>
+    <link>https://lovali.xyz/categories/</link>
     <description>Recent content in Categories on Lovali</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://lovali.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://lovali.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

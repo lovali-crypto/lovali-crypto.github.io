@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lovali</title>
-    <link>http://lovali.xyz/</link>
+    <link>https://lovali.xyz/</link>
     <description>Recent content on Lovali</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Nov 2021 15:17:00 +0200</lastBuildDate><atom:link href="http://lovali.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 15:17:00 +0200</lastBuildDate><atom:link href="https://lovali.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Staking Your Vega Tokens</title>
-      <link>http://lovali.xyz/blog/vega-staking/</link>
+      <link>https://lovali.xyz/blog/vega-staking/</link>
       <pubDate>Thu, 04 Nov 2021 15:17:00 +0200</pubDate>
       
-      <guid>http://lovali.xyz/blog/vega-staking/</guid>
+      <guid>https://lovali.xyz/blog/vega-staking/</guid>
       <description>Stake your VEGA tokens by following those simple steps: Step 0  If you do not already have a VEGA wallet, please follow this documentation in order to create one ; Go to https://token.</description>
     </item>
     

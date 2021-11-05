@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://lovali.xyz/blog/</loc>
+    <loc>https://lovali.xyz/blog/</loc>
     <lastmod>2021-11-04T15:17:00+02:00</lastmod>
   </url><url>
-    <loc>http://lovali.xyz/</loc>
+    <loc>https://lovali.xyz/</loc>
     <lastmod>2021-11-04T15:17:00+02:00</lastmod>
   </url><url>
-    <loc>http://lovali.xyz/blog/vega-staking/</loc>
+    <loc>https://lovali.xyz/blog/vega-staking/</loc>
     <lastmod>2021-11-04T15:17:00+02:00</lastmod>
   </url><url>
-    <loc>http://lovali.xyz/categories/</loc>
+    <loc>https://lovali.xyz/categories/</loc>
   </url><url>
-    <loc>http://lovali.xyz/tags/</loc>
+    <loc>https://lovali.xyz/tags/</loc>
   </url>
 </urlset>
