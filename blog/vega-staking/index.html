@@ -102,9 +102,9 @@
 <h3 id="step-0">Step 0</h3>
 <ul>
 <li>If you do not already have a VEGA wallet, please follow <a href="https://docs.fairground.vega.xyz/docs/vega-wallet/create-wallet/">this documentation</a> in order to create one ;</li>
-<li>Go to <a href="https://token.fairground.wtf/">https://token.fairground.wtf/</a> ;</li>
+<li>Go to <a href="https://token.vega.xyz/">https://token.vega.xyz/</a> ;</li>
 </ul>
-<p><img src="/images/blog/stakingVEGA/1-VEGAStakingHomePage.jpg" alt="https://token.fairground.wtf/"></p>
+<p><img src="/images/blog/stakingVEGA/1-VEGAStakingHomePage.jpg" alt="https://token.vega.xyz/"></p>
 <ul>
 <li>Click on the <code>STAKING</code> tab on the top of the page.</li>
 </ul>
@@ -115,7 +115,7 @@
 </ul>
 <p><img src="/images/blog/stakingVEGA/3-VEGAStakingConnectMetamask.jpg" alt="Connect to a Metamask Ethereum Wallet part 1"></p>
 <ul>
-<li>The amount of VEGA tokens in your Ethereum wallet should be displayed on the right panel</li>
+<li>The amount of VEGA tokens in your Ethereum wallet should be displayed on the right panel ;</li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/4-VEGAStakingConnectVEGAWallet1.jpg" alt="Connect to a Metamask Ethereum Wallet part 2"></p>
 <ul>
@@ -124,7 +124,12 @@
 <p><img src="/images/blog/stakingVEGA/5-VEGAStakingConnectVEGAWallet2.jpg" alt="Connect to a VEGA Wallet part 1"></p>
 <h3 id="step-2-">Step 2 :</h3>
 <ul>
-<li>Click on the <code>Associate VEGA tokens with wallet</code> button.</li>
+<li>
+<p>You should now see on the right panel that your Vega wallet is connected (but no token is associated/staked yet) ;</p>
+</li>
+<li>
+<p>Click on the <code>Associate VEGA tokens with wallet</code> button ;</p>
+</li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/6-VEGAStakingAssociateVEGA1.jpg" alt="Associate VEGA tokens with wallet part 1"></p>
 <ul>
@@ -132,16 +137,16 @@
 <p>When asked &ldquo;Where would you like to stake from ?&rdquo;, select <code>Wallet</code> and enter the amount of VEGA tokens you would like to associate with your wallet (or you can click on the <code>Use maximum</code> link to populate this field with the amount coresponding to all the available tokens) ;</p>
 </li>
 <li>
-<p>Then click the <code>Approve VEGA tokens for staking on Vega</code> button, confirm the trasaction with Metamask and wait for the confirmations to complete on the blockchain ;</p>
+<p>Then click the <code>Approve VEGA tokens for staking on Vega</code> button, confirm the transaction with Metamask and wait for the confirmations to complete on the blockchain ;</p>
 </li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/7-VEGAStakingAssociateVEGA2.jpg" alt="Associate VEGA tokens with wallet part 2"></p>
 <ul>
-<li>Click the <code>Associate VEGA tokens with key</code> button, confirm the transaction in Metamask and wait for the confirmations to complete on the blockchain. This time, it will take more time since more confirmations are required (you can optionally check the transaction on Etherscan with the link provided if you want).</li>
+<li>Click the <code>Associate VEGA tokens with key</code> button, confirm the transaction in Metamask and wait for the confirmations to complete on the blockchain. This time, it will take more time since more confirmations are required (you can optionally check the transaction on Etherscan with the link provided if you want) ;</li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/8-VEGAStakingAssociateVEGA3.jpg" alt="Associate VEGA tokens with wallet part 3"></p>
 <ul>
-<li>The amount of tokens you just associated will appear on the right panel</li>
+<li>The amount of tokens you just associated will appear on the right panel (they are still not staked for the moment).</li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/9-VEGAStakingAssociateVEGA4.jpg" alt="Associate VEGA tokens with wallet part 4"></p>
 <h3 id="step-3-">Step 3 :</h3>
@@ -154,16 +159,28 @@
 </ul>
 <p><img src="/images/blog/stakingVEGA/11-VEGAStakingSelectValidator2.jpg" alt="Select a validator part 2"></p>
 <ul>
-<li>Wait for the transaction to finish ;</li>
+<li>Wait for the transaction to finish and check that the stake on node (next epoch) value is now equal to the amount you want to stake ;</li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/12-VEGAStakingSelectValidator3.jpg" alt="Select a validator part 3"></p>
-<p><img src="/images/blog/stakingVEGA/13-VEGAStakingSelectValidator4.jpg" alt="Select a validator part 4"></p>
-<h3 id="final-check-">Final check :</h3>
 <ul>
-<li>Click on the <code>Staking</code> tab on the top of the page, and double check that your stake for Lovali validator is equal to the amount you want. If not you are still able to add more VEGA tokens repeating step 3.</li>
+<li>Wait for the end of the current epoch (you can check the progress bar in the previous screenshot). You can now leave the website and come back later if the end of the current epoch is too far.</li>
+</ul>
+<h3 id="final-check-next-epoch-">Final check (next epoch) :</h3>
+<ul>
+<li>
+<p>Come back to <a href="https://token.vega.xyz/">https://token.vega.xyz/</a> when the next epoch is started ;</p>
+</li>
+<li>
+<p>Repeat Step 1 if your wallets have been disconnected since the previous step ;</p>
+</li>
+<li>
+<p>Click on the <code>STAKING</code> tab on the top of the page, and double check that your stake for Lovali validator is equal to the amount you want. If not you are still able to add more VEGA tokens repeating step 3. This step can be important if you want to stake a large amount of tokens since there is an anti-whale mechanism which can kick in in some situations on Vega protocol (in the example, we tried to stake 10 000 tokens but only 3 700 have been actually staked). The rule defined by the Vega protocol is the following : &ldquo;At the end of the epoch, given all requested nominations and un-nominations, and current active nominations, the max stake per validator is defined as the <code>(current total stake across all validators minus the total requested un-nominated stake + total requested nominated stake) divided by 3</code>. Each validator will not accept more stake beyond the maximum : if it has already more than the maximum it will reject all requests for nomination but will leave any existing stake untouched&rdquo;.</p>
+</li>
 </ul>
 <p><img src="/images/blog/stakingVEGA/14-VEGAStakingSummaryAllValidators.jpg" alt="Final check"></p>
-<p>That&rsquo;s it, now you just have to wait to enjoy your staking rewards !</p>
+<ul>
+<li>That&rsquo;s it, you can now start to enjoy your staking rewards !</li>
+</ul>
 
         </div>
         
